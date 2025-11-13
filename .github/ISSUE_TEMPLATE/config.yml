@@ -1,0 +1,17 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📖 Documentation
+    url: https://github.com/maqboolthoufeeq/json2toon#readme
+    about: Read the full documentation and examples
+  - name: 💬 Discussions
+    url: https://github.com/maqboolthoufeeq/json2toon/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: 🔒 Security Issue
+    url: https://github.com/maqboolthoufeeq/json2toon/security/advisories/new
+    about: Report security vulnerabilities privately
+  - name: 📦 PyPI Package
+    url: https://pypi.org/project/json2toon/
+    about: View the package on PyPI
+  - name: 📋 TOON Specification
+    url: https://github.com/toon-format/spec
+    about: Learn about the TOON format specification

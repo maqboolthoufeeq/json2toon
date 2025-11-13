@@ -4,7 +4,7 @@ version = "0.1.1"
 description = "Bidirectional converter between JSON and TOON (Token-Oriented Object Notation) format with full spec support"
 readme = "README.md"
 authors = [
-    { name = "Maqbool Thoufeeq Tharayil", email = "maqbool@reddoak.com" }
+    { name = "Maqbool Thoufeeq Tharayil", email = "maqboolthoufeeq@gmail.com" }
 ]
 license = { text = "MIT" }
 requires-python = ">=3.12"
@@ -31,10 +31,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/maqbool-tharayil/json2toon"
-Repository = "https://github.com/maqbool-tharayil/json2toon"
-Issues = "https://github.com/maqbool-tharayil/json2toon/issues"
-Documentation = "https://github.com/maqbool-tharayil/json2toon#readme"
+Homepage = "https://github.com/maqboolthoufeeq/json2toon/"
+Repository = "https://github.com/maqboolthoufeeq/json2toon/"
+Issues = "https://github.com/maqboolthoufeeq/json2toon/issues"
+Documentation = "https://github.com/maqboolthoufeeq/json2toon#readme"
 
 [project.scripts]
 json2toon = "json2toon.cli:json2toon_main"

@@ -2,7 +2,10 @@
 
 [![PyPI version](https://badge.fury.io/py/json2toon.svg)](https://badge.fury.io/py/json2toon)
 [![Python Version](https://img.shields.io/pypi/pyversions/json2toon.svg)](https://pypi.org/project/json2toon/)
+[![CI](https://github.com/maqboolthoufeeq/json2toon/actions/workflows/ci.yml/badge.svg)](https://github.com/maqboolthoufeeq/json2toon/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Downloads](https://pepy.tech/badge/json2toon)](https://pepy.tech/project/json2toon)
+[![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 
 A Python library and CLI tool for bidirectional conversion between JSON and TOON (Token-Oriented Object Notation) format with full specification support.
 
@@ -291,7 +294,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Links
 
-- **GitHub**: https://github.com/maqbool-tharayil/json2toon
+- **GitHub**: https://github.com/maqboolthoufeeq/json2toon
 - **PyPI**: https://pypi.org/project/json2toon/
-- **Issues**: https://github.com/maqbool-tharayil/json2toon/issues
+- **Issues**: https://github.com/maqboolthoufeeq/json2toon/issues
 - **TOON Spec**: https://github.com/toon-format/spec

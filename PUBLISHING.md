@@ -262,5 +262,5 @@ git push origin v0.1.0
 ## Support
 
 For issues or questions:
-- GitHub Issues: https://github.com/maqbool-tharayil/json2toon/issues
-- Email: maqbool@reddoak.com
+- GitHub Issues: https://github.com/maqboolthoufeeq/json2toon/issues
+- Email: maqboolthoufeeq.t@gmail.com

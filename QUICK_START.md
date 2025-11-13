@@ -255,12 +255,12 @@ Ensure files are UTF-8 encoded. TOON supports full Unicode.
 - Read the [full README](README.md) for detailed documentation
 - Check [PUBLISHING.md](PUBLISHING.md) to publish your own packages
 - See [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md) for technical details
-- Report issues: https://github.com/maqbool-tharayil/json2toon/issues
+- Report issues: https://github.com/maqboolthoufeeq/json2toon/issues
 
 ## Links
 
 - **TOON Specification**: https://github.com/toon-format/spec
-- **GitHub Repository**: https://github.com/maqbool-tharayil/json2toon
+- **GitHub Repository**: https://github.com/maqboolthoufeeq/json2toon
 - **PyPI Package**: https://pypi.org/project/json2toon/
 
 ---

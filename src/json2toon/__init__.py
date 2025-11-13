@@ -9,7 +9,7 @@ from __future__ import annotations
 from json2toon.decoder import ToonDecoder, ToonParseConfig, ToonParseError, toon_to_json
 from json2toon.encoder import ToonConfig, ToonEncoder, json_to_toon
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     # Encoder

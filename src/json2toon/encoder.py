@@ -213,15 +213,17 @@ class ToonEncoder:
             encoded_values = []
             for f in fields:
                 val = obj[f]
-                normalized = self._normalize_value(val)
-                # Convert to string representation
-                val_str = str(normalized)
-                # Quote if necessary
-                if isinstance(normalized, str) and self._needs_quoting(
-                    normalized, self.config.delimiter
-                ):
-                    val_str = self._quote_string(normalized, self.config.delimiter)
-                encoded_values.append(val_str)
+                # Only quote actual string values, not primitives converted to strings
+                if isinstance(val, str):
+                    # Original value is a string, quote if necessary
+                    if self._needs_quoting(val, self.config.delimiter):
+                        encoded_values.append(self._quote_string(val, self.config.delimiter))
+                    else:
+                        encoded_values.append(val)
+                else:
+                    # Original value is number/bool/null, convert to string but don't quote
+                    normalized = self._normalize_value(val)
+                    encoded_values.append(str(normalized))
             row = self.config.delimiter.join(encoded_values)
             lines.append(f"{self._indent(row_depth)}{row}")
 
@@ -233,14 +235,17 @@ class ToonEncoder:
         """Encode array of primitives inline."""
         encoded_values = []
         for v in arr:
-            normalized = self._normalize_value(v)
-            val_str = str(normalized)
-            # Only quote strings that need quoting
-            if isinstance(normalized, str) and self._needs_quoting(
-                normalized, self.config.delimiter
-            ):
-                val_str = self._quote_string(normalized, self.config.delimiter)
-            encoded_values.append(val_str)
+            # Only quote actual string values, not primitives converted to strings
+            if isinstance(v, str):
+                # Original value is a string, quote if necessary
+                if self._needs_quoting(v, self.config.delimiter):
+                    encoded_values.append(self._quote_string(v, self.config.delimiter))
+                else:
+                    encoded_values.append(v)
+            else:
+                # Original value is number/bool/null, convert to string but don't quote
+                normalized = self._normalize_value(v)
+                encoded_values.append(str(normalized))
         content = self.config.delimiter.join(encoded_values)
 
         header = f"[{len(arr)}]: {content}"

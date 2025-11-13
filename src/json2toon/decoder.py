@@ -156,6 +156,7 @@ class ToonDecoder:
         key = self._parse_key(key_part)
 
         # Check if it's an array
+        value: Any
         if "[" in key_part and "]" in key_part:
             # Array value
             array_match = self._parse_array_header(line)

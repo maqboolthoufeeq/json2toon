@@ -1,6 +1,6 @@
 [project]
 name = "json2toon"
-version = "0.1.1"
+version = "0.1.2"
 description = "Bidirectional converter between JSON and TOON (Token-Oriented Object Notation) format with full spec support"
 readme = "README.md"
 authors = [

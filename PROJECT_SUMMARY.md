@@ -9,7 +9,7 @@
 | Property | Value |
 |----------|-------|
 | **Package Name** | json2toon |
-| **Current Version** | 0.1.1 |
+| **Current Version** | 0.1.2 |
 | **Status** | 🟢 Production Ready |
 | **PyPI** | https://pypi.org/project/json2toon/ |
 | **Repository** | https://github.com/maqboolthoufeeq/json2toon/ |
@@ -391,7 +391,7 @@ cat data.json | json2toon | toon2json
 - ✅ Published to PyPI
 - ⚠️ Number quoting bug discovered
 
-### Version 0.1.1 (2025-01-13) - Current
+### Version 0.1.2 (2025-01-13) - Current
 - ✅ **Critical Fix**: Number type preservation
 - ✅ **CI Fix**: MyPy type checking errors
 - ✅ **Testing**: Mark edge cases as xfail

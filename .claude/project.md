@@ -5,7 +5,7 @@
 **json2toon** is a production-ready Python library for bidirectional conversion between JSON and TOON (Token-Oriented Object Notation) format. TOON is a compact, human-readable serialization format optimized for LLM token efficiency, achieving 30-60% fewer tokens than formatted JSON.
 
 - **Package Name**: json2toon
-- **Version**: 0.1.1
+- **Version**: 0.1.2
 - **Status**: Production Ready (Published on PyPI)
 - **Python**: 3.12+
 - **License**: MIT
@@ -274,7 +274,7 @@ TOON is designed for LLM token efficiency. Key concepts:
 - ✅ Correct: `id: 1` (integer)
 - ❌ Wrong: `id: "1"` (string)
 
-This was a critical bug fixed in v0.1.1. The encoder checks `isinstance(val, str)` before quoting.
+This was a critical bug fixed in v0.1.2. The encoder checks `isinstance(val, str)` before quoting.
 
 ### Strict Mode
 Both encoder and decoder support strict mode (default: enabled):
@@ -321,7 +321,7 @@ Both encoder and decoder support strict mode (default: enabled):
 ### Common Issues
 
 1. **Type mismatch after round-trip**
-   - Ensure using v0.1.1+ (number quoting fix)
+   - Ensure using v0.1.2+ (number quoting fix)
    - Check that values aren't being double-quoted
 
 2. **Array count mismatch errors**
@@ -352,7 +352,7 @@ Both encoder and decoder support strict mode (default: enabled):
 
 ## Version History
 
-### v0.1.1 (2025-01-13) - Current
+### v0.1.2 (2025-01-13) - Current
 - ✅ Fix: Number type preservation in round-trip conversion
 - ✅ Fix: MyPy type checking errors in decoder
 - ✅ Mark edge case tests as xfail for CI
@@ -361,7 +361,7 @@ Both encoder and decoder support strict mode (default: enabled):
 
 ### v0.1.0 (2025-01-12) - Initial
 - Initial release with core functionality
-- Had number quoting bug (fixed in 0.1.1)
+- Had number quoting bug (fixed in 0.1.2)
 
 ---
 

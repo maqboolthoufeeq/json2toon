@@ -6,7 +6,7 @@ This file contains all the information you need to properly configure your GitHu
 
 - **URL**: https://github.com/maqboolthoufeeq/json2toon
 - **PyPI**: https://pypi.org/project/json2toon/
-- **Current Version**: 0.1.1
+- **Current Version**: 0.1.2
 - **Status**: Production Ready
 
 ## About Section Configuration
@@ -110,13 +110,13 @@ If you want to add collaborators:
 
 ## Release Information
 
-### Latest Release: v0.1.1
+### Latest Release: v0.1.2
 
 **Title**: Critical Bug Fixes and CI Improvements
 
 **Description** (for GitHub Release page):
 ```markdown
-## 🎉 What's New in v0.1.1
+## 🎉 What's New in v0.1.2
 
 ### 🐛 Critical Bug Fixes
 - **Fixed number type preservation**: Numbers no longer get converted to strings during round-trip conversion
@@ -156,7 +156,7 @@ else:
 ### 📦 Installation
 
 ```bash
-pip install json2toon==0.1.1
+pip install json2toon==0.1.2
 ```
 
 Or with uv:
@@ -175,7 +175,7 @@ uv add json2toon
 - Python 3.12+ support
 - Full TOON spec implementation
 
-**Full Changelog**: https://github.com/maqboolthoufeeq/json2toon/compare/v0.1.0...v0.1.1
+**Full Changelog**: https://github.com/maqboolthoufeeq/json2toon/compare/v0.1.0...v0.1.2
 ```
 
 ## Social Preview Image (Optional)
@@ -230,7 +230,7 @@ Upload at: **Settings → Social preview → Edit**
 
 ### Important (15 minutes)
 4. ⏳ Set up branch protection for `main`
-5. ⏳ Review and update GitHub Release notes for v0.1.1
+5. ⏳ Review and update GitHub Release notes for v0.1.2
 6. ⏳ Enable Discussions (optional but recommended)
 
 ### Optional (30 minutes)
@@ -279,7 +279,7 @@ After pushing and configuring GitHub:
 - [ ] Security tab shows SECURITY.md
 - [ ] Branch protection is active
 - [ ] CI badges show passing status
-- [ ] Release v0.1.1 has proper notes
+- [ ] Release v0.1.2 has proper notes
 
 ## Support
 

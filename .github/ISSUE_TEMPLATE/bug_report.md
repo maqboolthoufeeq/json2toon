@@ -48,7 +48,7 @@ Paste the actual output here
 
 ## Environment
 
-- **json2toon version**: [e.g., 0.1.1] (run `pip show json2toon`)
+- **json2toon version**: [e.g., 0.1.2] (run `pip show json2toon`)
 - **Python version**: [e.g., 3.12.1] (run `python --version`)
 - **Operating System**: [e.g., macOS 14.0, Ubuntu 22.04, Windows 11]
 - **Installation method**: [e.g., pip, uv]

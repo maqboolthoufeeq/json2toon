@@ -182,9 +182,9 @@ For automatic contributor recognition:
 
 You already have releases, but ensure they're properly formatted:
 
-### Release v0.1.1 (Current)
+### Release v0.1.2 (Current)
 
-**Title**: `v0.1.1 - Critical Bug Fixes`
+**Title**: `v0.1.2 - Critical Bug Fixes`
 
 **Description**:
 ```markdown
@@ -205,12 +205,12 @@ You already have releases, but ensure they're properly formatted:
 - Added explicit type annotations for MyPy compatibility
 - Edge cases documented and tracked for future releases
 
-**Full Changelog**: https://github.com/maqboolthoufeeq/json2toon/compare/v0.1.0...v0.1.1
+**Full Changelog**: https://github.com/maqboolthoufeeq/json2toon/compare/v0.1.0...v0.1.2
 
 ## Installation
 
 ```bash
-pip install json2toon==0.1.1
+pip install json2toon==0.1.2
 ```
 
 ## Links
@@ -253,7 +253,7 @@ What you expected to happen.
 What actually happened.
 
 ## Environment
-- json2toon version: [e.g., 0.1.1]
+- json2toon version: [e.g., 0.1.2]
 - Python version: [e.g., 3.12]
 - Operating System: [e.g., macOS, Linux, Windows]
 

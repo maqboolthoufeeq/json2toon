@@ -41,7 +41,7 @@ Please provide as much information as possible:
 ```
 - Vulnerability Type: [e.g., injection, DoS, information disclosure]
 - Affected Component: [e.g., encoder, decoder, CLI]
-- Affected Versions: [e.g., 0.1.0, 0.1.1]
+- Affected Versions: [e.g., 0.1.0, 0.1.2]
 - Attack Vector: [e.g., network, local, physical]
 - Severity: [e.g., critical, high, medium, low]
 - Proof of Concept: [code or steps to reproduce]
@@ -57,7 +57,7 @@ Description:
 The TOON decoder improperly sanitizes user input when parsing
 certain special characters, allowing arbitrary code execution.
 
-Affected Versions: 0.1.0, 0.1.1
+Affected Versions: 0.1.0, 0.1.2
 
 Reproduction:
 1. Create a TOON file with malicious payload:
@@ -187,7 +187,7 @@ Users should be aware of:
 
 | Date | Auditor | Scope | Result |
 |------|---------|-------|--------|
-| 2025-01-13 | Internal | Code review of v0.1.1 | No issues found |
+| 2025-01-13 | Internal | Code review of v0.1.2 | No issues found |
 | - | - | - | Awaiting external audit |
 
 We welcome security researchers to audit our code!
